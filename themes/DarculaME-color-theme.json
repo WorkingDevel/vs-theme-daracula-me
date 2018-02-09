@@ -540,6 +540,12 @@
 			}
 		},
 		{
+			"scope": "markup.list.numbered",
+			"settings": {
+				"foreground": "#dddcac"
+			}
+		},
+		{
 			"scope": "markup.italic.markdown",
 			"settings": {
 				"foreground": "#a6ff00e7",
