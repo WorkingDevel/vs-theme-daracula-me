@@ -1,10 +1,20 @@
 {
+	"name": "DarculaME",
 	"type": "dark",
 	"colors": {
 		"editor.background": "#242424",
 		"editor.foreground": "#cccccc",
 		"editor.selectionBackground": "#1a414d",
-		"editor.lineHighlightBackground": "#2c2c2c"
+		"editor.lineHighlightBackground": "#2c2c2c",
+		"panel.background": "#333333",
+		"panelTitle.activeBorder": "#ff0000",
+		"sideBar.background": "#444444",
+		"tab.activeBackground": "#e02c2646",
+		"tab.activeBorder": "#ff0000",
+		"tab.hoverBorder": "#ffffff",
+		"tab.hoverBackground": "#ffbb00c0",
+		"tab.unfocusedHoverBackground":"#aa4d01",
+		"tab.unfocusedHoverBorder": "#ff0000"
 	},
 	"tokenColors": [
 		{
@@ -421,6 +431,81 @@
 			"scope": "token.debug-token",
 			"settings": {
 				"foreground": "#b267e6"
+			}
+		},
+		{
+			"scope": "punctuation.definition.table",
+			"settings": {
+				"foreground": "#e05b26"
+			}
+		},
+		{
+			"scope": "variable.parameter",
+			"settings": {
+				"foreground": "#a6ff00e7",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": "support.class",
+			"settings": {
+				"foreground": "#ffc400f8"
+			}
+		},
+		{
+			"scope": "punctuation.definition.arguments",
+			"settings": {
+				"foreground": "#ffffff"
+			}
+		},
+		{
+			"scope": "meta.group.braces",
+			"settings": {
+				"foreground": "#aaa"
+			}
+		},
+		{
+			"scope": "punctuation.section.group",
+			"settings": {
+				"foreground": "#ffffff"
+			}
+		},
+		{
+			"scope": "entity.name.section.entry",
+			"settings": {
+				"foreground": "#ffffff"
+			}
+		},
+		{
+			"scope": "meta.data.environment.tabular",
+			"settings": {
+				"foreground": "#9ecfd8"
+			}
+		},
+		{
+			"scope": "entity.name.section",
+			"settings": {
+				"foreground": "#a8e2c0",
+				"fontStyle": "bold underline"
+			}
+		},
+		{
+			"scope": "markup.list.unnumbered",
+			"settings": {
+				"foreground": "#f3daac"
+			}
+		},
+		{
+			"scope": "markup.italic.markdown",
+			"settings": {
+				"foreground": "#a6ff00e7",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": "markup.inline.raw.string.markdown",
+			"settings": {
+				"foreground": "#e05b26"
 			}
 		}
 	]
