@@ -32,63 +32,107 @@
 		},
 		{
 			"name": "Operator Keywords",
-			"scope": "\n\t\t\t\tkeyword.operator,\n\t\t\t\tkeyword.operator.logical,\n\t\t\t\tkeyword.operator.relational,\n\t\t\t\tkeyword.operator.assignment,\n\t\t\t\tkeyword.operator.comparison,\n\t\t\t\tkeyword.operator.ternary,\n\t\t\t\tkeyword.operator.arithmetic,\n\t\t\t\tkeyword.operator.spread",
+			"scope": [
+				"keyword.operator",
+				"keyword.operator.logical",
+				"keyword.operator.relational",
+				"keyword.operator.assignment",
+				"keyword.operator.comparison",
+				"keyword.operator.ternary",
+				"keyword.operator.arithmetic",
+				"keyword.operator.spread"
+			],
 			"settings": {
 				"foreground": "#CCCCCC"
 			}
 		},
 		{
 			"name": "Strings",
-			"scope": "\n\t\t\tstring,\nstring.character.escape,\nstring.template.quoted,\nstring.template.quoted.punctuation,\nstring.template.quoted.punctuation.single,\nstring.template.quoted.punctuation.double,\nstring.type.declaration.annotation,\nstring.template.quoted.punctuation.tag",
+			"scope": [
+        "string",
+        "string.character.escape",
+        "string.template.quoted",
+        "string.template.quoted.punctuation",
+        "string.template.quoted.punctuation.single",
+        "string.template.quoted.punctuation.double",
+        "string.type.declaration.annotation",
+        "string.template.quoted.punctuation.tag"
+      ],
 			"settings": {
 				"foreground": "#6A8759"
 			}
 		},
 		{
 			"name": "String Interpolation Begin and End",
-			"scope": "\n\t\t\tpunctuation.definition.template-expression.begin,\n\t\t\tpunctuation.definition.template-expression.end\n\t\t\t",
+			"scope": [
+        "punctuation.definition.template-expression.begin",
+        "punctuation.definition.template-expression.end"
+      ],
 			"settings": {
 				"foreground": "#CC8242"
 			}
 		},
 		{
 			"name": "String Interpolation Body",
-			"scope": "\n\t\t\texpression.string,\n\t\t\tmeta.template.expression\n\t\t\t",
+			"scope": [
+        "expression.string",
+        "meta.template.expression"
+      ],
 			"settings": {
 				"foreground": "#CCCCCC"
 			}
 		},
 		{
 			"name": "Number",
-			"scope": "constant.numeric",
+			"scope": [
+        "constant.numeric"
+      ],
 			"settings": {
 				"foreground": "#7A9EC2"
 			}
 		},
 		{
 			"name": "Built-in constant",
-			"scope": "constant.language,variable.language",
+			"scope": [
+        "constant.language,variable.language"
+      ],
 			"settings": {
 				"foreground": "#CC8242"
 			}
 		},
 		{
 			"name": "User-defined constant",
-			"scope": "constant.character, constant.other",
+			"scope": [
+        "constant.character",
+        "constant.other"
+      ],
 			"settings": {
 				"foreground": "#9E7BB0"
 			}
 		},
 		{
 			"name": "Keyword",
-			"scope": "keyword,\nkeyword.operator.new,\nkeyword.operator.delete,\nkeyword.operator.static,\nkeyword.operator.this,\nkeyword.operator.expression",
+			"scope": [
+        "keyword",
+        "keyword.operator.new",
+        "keyword.operator.delete",
+        "keyword.operator.static",
+        "keyword.operator.this",
+        "keyword.operator.expression"
+      ],
 			"settings": {
 				"foreground": "#CC8242"
 			}
 		},
 		{
 			"name": "Types, Class Types",
-			"scope": "\n\t\t\t\tentity.name.type,\n\t\t\t\tmeta.return.type,\n\t\t\t\tmeta.type.annotation,\n\t\t\t\tmeta.type.parameters,\n\t\t\t\tsupport.type.primitive\n\t\t\t",
+			"scope": [
+        "entity.name.type",
+        "meta.return.type",
+        "meta.type.annotation",
+        "meta.type.parameters",
+        "support.type.primitive"
+      ],
 			"settings": {
 				"foreground": "#7A9EC2"
 			}
