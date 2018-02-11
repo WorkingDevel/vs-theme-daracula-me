@@ -478,6 +478,23 @@
 			}
 		},
 		{
+			"scope": [
+				"string.other.link",
+				"string.other.link.title"
+			],
+			"settings": {
+				"foreground": "#5391d8"
+			}
+		},
+		{
+			"scope": [
+				"meta.link.inline"
+			],
+			"settings": {
+				"foreground": "#87b9f1"
+			}
+		},
+		{
 			"scope": "punctuation.definition.table",
 			"settings": {
 				"foreground": "#e05b26"
@@ -534,9 +551,20 @@
 			}
 		},
 		{
-			"scope": "markup.list.unnumbered",
+			"scope": [
+				"markup.list.unnumbered",
+				"beginning.punctuation.definition.list"
+			],
 			"settings": {
 				"foreground": "#f3daac"
+			}
+		},
+		{
+			"scope": [
+				"beginning.punctuation.definition.list"
+			],
+			"settings": {
+				"foreground": "#f3a963"
 			}
 		},
 		{
