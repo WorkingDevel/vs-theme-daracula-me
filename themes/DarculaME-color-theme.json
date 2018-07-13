@@ -15,21 +15,32 @@
 		"panelTitle.activeBorder": "#ff0000",
 		"sideBar.background": "#444444",
 		"sideBarTitle.foreground": "#ffa602",
-		"sideBarSectionHeader.background": "#26bbe046",
+		"sideBarSectionHeader.background": "#e02c2646",
+		"sideBar.dropBackground": "#ff0000",
+		// "sideBarSectionHeader.background": "#26bbe046",
 		"notifications.background": "#ffa602",
 		"notifications.border": "#ffc400f8",
 		"notificationToast.border": "#ffc400f8",
 		"notifications.foreground": "#242424",
 		"notificationCenterHeader.background": "#ff0000",
-		// "list.hoverBackground": "#ffd000f8",
-		// "list.focusBackground": "#ffffff",
+		"notificationLink.foreground": "#3cff00",
+		"list.inactiveSelectionBackground": "#363636",
+		"list.hoverBackground": "#ffd000f8",
+		"list.hoverForeground": "#333333",
+		"list.focusBackground": "#f7ddb4",
+		"list.focusForeground": "#333333",
+		"list.highlightForeground": "#00ffaa",
+		"editorSuggestWidget.selectedBackground": "#26bbe07e",
+		"editorSuggestWidget.border": "#ffffff8e",
 		"tab.activeBackground": "#e02c2646",
 		"tab.activeBorder": "#ff0000",
 		"tab.hoverBorder": "#ffffff",
 		"tab.hoverBackground": "#ffbb00c0",
 		"tab.unfocusedHoverBackground": "#aa4d01",
 		"tab.unfocusedHoverBorder": "#ff0000",
-		"button.hoverBackground": "#ffbb00c0"
+		"button.hoverBackground": "#ffbb00c0",
+		"editorHoverWidget.background": "#36517c",
+		"editorHoverWidget.border": "#ffc400f8"
 	},
 	"tokenColors": [
 		{
@@ -828,7 +839,8 @@
 		},
 		{
 			"scope": [
-				"markup.inline.raw.string.markdown"
+				"markup.inline.raw.string.markdown",
+				"markup.raw.block.markdown"
 			],
 			"settings": {
 				"foreground": "#e05b26"
