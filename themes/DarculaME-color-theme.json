@@ -4,6 +4,10 @@
 	"colors": {
 		"editor.background": "#242424",
 		"editor.foreground": "#c0c0c0",
+		"menu.background": "#003366",
+		"menu.foreground": "#c0c0c0",
+		"menu.selectionBackground": "#ffa602",
+		"menu.selectionForeground": "#555555",
 		"editor.selectionBackground": "#5693a58a", //"#1a414d",
 		"editor.selectionHighlightBorder": "#ffa60278",
 		"editor.selectionHighlightBackground": "#5693a544",
@@ -23,12 +27,16 @@
 		"notificationToast.border": "#ffc400f8",
 		"notifications.foreground": "#242424",
 		"notificationCenterHeader.background": "#ff0000",
+		"notificationCenterHeader.foreground": "#363636",
 		"notificationLink.foreground": "#3cff00",
-		"list.inactiveSelectionBackground": "#363636",
 		"list.hoverBackground": "#ffd000f8",
 		"list.hoverForeground": "#333333",
 		"list.focusBackground": "#f7ddb4",
 		"list.focusForeground": "#333333",
+		"list.inactiveSelectionBackground": "#555555",
+		"list.inactiveSelectionForeground": "#f7ddb4",
+		"list.activeSelectionForeground": "#ffffff",
+		"list.dropBackground": "#ff0000",
 		"list.highlightForeground": "#00ffaa",
 		"editorSuggestWidget.selectedBackground": "#26bbe07e",
 		"editorSuggestWidget.border": "#ffffff8e",
@@ -150,7 +158,8 @@
 			"name": "Built-in constant",
 			"scope": [
 				"constant.language",
-				"variable.language"
+				"variable.language",
+				"variable.other.bracket"
 			],
 			"settings": {
 				"foreground": "#CC8242"
@@ -267,7 +276,8 @@
 				"variable.object.property",
 				"support.variable.property",
 				"support.type.property-name",
-				"string.unquoted.key.bibtex"
+				"string.unquoted.key.bibtex",
+				"variable.other.loop.shell"
 			],
 			"settings": {
 				"foreground": "#9CDCFE"
@@ -297,7 +307,9 @@
 				"punctuation.definition.tag.html",
 				"punctuation.definition.tag.begin",
 				"punctuation.definition.tag.end",
-				"entity.name.tag"
+				"entity.name.tag",
+				"punctuation.definition.variable.shell",
+				"punctuation.section.array.shell"
 			],
 			"settings": {
 				"foreground": "#FFC66D"
@@ -761,7 +773,8 @@
 		{
 			"scope": [
 				"punctuation.definition.string",
-				"punctuation.definition.arguments"
+				"punctuation.definition.arguments",
+				"punctuation.definition.brackets.tex"
 			],
 			"settings": {
 				"foreground": "#fdae9bd3",
@@ -805,7 +818,8 @@
 		{
 			"scope": [
 				"markup.list.unnumbered",
-				"beginning.punctuation.definition.list"
+				"keyword.operator.list.shell",
+				"meta.scope.logical-expression.shell"
 			],
 			"settings": {
 				"foreground": "#f3daac"
@@ -840,7 +854,8 @@
 		{
 			"scope": [
 				"markup.inline.raw.string.markdown",
-				"markup.raw.block.markdown"
+				"markup.raw.block.markdown",
+				"meta.function.verbatim.latex"
 			],
 			"settings": {
 				"foreground": "#e05b26"
