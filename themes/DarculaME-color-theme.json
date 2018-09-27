@@ -229,7 +229,8 @@
 				"keyword.operator.this",
 				"keyword.operator.expression",
 				"entity.name.tag.yaml",
-				"punctuation.definition.keyword.latex"
+				"punctuation.definition.keyword.latex",
+				"fenced_code.block.language"
 			],
 			"settings": {
 				"foreground": "#CC8242",
@@ -864,7 +865,8 @@
 			"scope": [
 				"markup.inline.raw.string.markdown",
 				"markup.raw.block.markdown",
-				"meta.function.verbatim.latex"
+				"meta.function.verbatim.latex",
+				"markup.fenced_code.block.markdown"
 			],
 			"settings": {
 				"foreground": "#e05b26"
