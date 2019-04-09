@@ -33,7 +33,7 @@
 		"notificationLink.foreground": "#3cff00",
 		"list.hoverBackground": "#ffd000a6",
 		"list.hoverForeground": "#333333",
-		"list.focusBackground": "#f7ddb4",
+		"list.focusBackground": "#b17310",
 		"list.focusForeground": "#333333",
 		"list.inactiveSelectionBackground": "#555555",
 		"list.inactiveSelectionForeground": "#f7ddb4",
@@ -48,7 +48,7 @@
 		"tab.hoverBackground": "#ffbb00c0",
 		"tab.unfocusedHoverBackground": "#aa4d01",
 		"tab.unfocusedHoverBorder": "#ff0000",
-		"button.hoverBackground": "#ffbb00c0",
+		"button.hoverBackground": "#9c180ec0",
 		"editorHoverWidget.background": "#36517c",
 		"editorHoverWidget.border": "#ffc400f8"
 	},
