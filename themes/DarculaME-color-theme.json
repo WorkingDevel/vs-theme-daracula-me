@@ -2,20 +2,33 @@
 	"name": "DarculaME",
 	"type": "dark",
 	"colors": {
-		"editor.background": "#242424",
-		"editor.foreground": "#c0c0c0",
+		"window.activeBorder": "#ffa60252",
+		"window.inactiveBorder": "#555555",
+		"activityBarBadge.background": "#ffa602",
+		"activityBarBadge.foreground": "#000",
+		"activityBar.activeBackground": "#ffd1024b",
+		"activityBar.activeBorder": "#ffa602",
+		// "activityBar.background": "#4609075e",
 		"menu.background": "#555555",
 		"menu.foreground": "#c0c0c0",
 		"menu.selectionBackground": "#ffa602",
 		"menu.selectionForeground": "#555555",
 		"menubar.selectionBackground": "#ffa602",
 		"menubar.selectionForeground": "#333333",
+		"statusBar.background": "#cf6107a9",
+		"editorLightBulbAutoFix.foreground": "#ffa602",
+		"editor.background": "#242424",
+		"editor.foreground": "#c0c0c0",
 		"editor.selectionBackground": "#5693a58a", //"#1a414d",
 		"editor.selectionHighlightBorder": "#ffa60278",
 		"editor.selectionHighlightBackground": "#5693a544",
 		"editor.lineHighlightBackground": "#363636",
 		"editorLineNumber.activeForeground": "#ffa602",
 		"editorBracketMatch.border": "#ff02ea",
+		"editorSuggestWidget.selectedBackground": "#26bbe07e",
+		"editorSuggestWidget.border": "#ffffff8e",
+		"editorHoverWidget.background": "#36517c",
+		"editorHoverWidget.border": "#ffc400f8",
 		"scrollbarSlider.hoverBackground": "#ffa60278",
 		"panel.background": "#333333",
 		"panelTitle.activeBorder": "#ff0000",
@@ -40,8 +53,6 @@
 		"list.activeSelectionForeground": "#ffffff",
 		"list.dropBackground": "#ff00007a",
 		"list.highlightForeground": "#00ffaa",
-		"editorSuggestWidget.selectedBackground": "#26bbe07e",
-		"editorSuggestWidget.border": "#ffffff8e",
 		"tab.activeBackground": "#e02c2646",
 		"tab.activeBorder": "#ff0000",
 		"tab.hoverBorder": "#ffffff",
@@ -49,8 +60,7 @@
 		"tab.unfocusedHoverBackground": "#aa4d01",
 		"tab.unfocusedHoverBorder": "#ff0000",
 		"button.hoverBackground": "#9c180ec0",
-		"editorHoverWidget.background": "#36517c",
-		"editorHoverWidget.border": "#ffc400f8"
+		"terminal.background": "#151515",
 	},
 	"tokenColors": [
 		{
@@ -247,7 +257,17 @@
 				"support.type.primitive"
 			],
 			"settings": {
-				"foreground": "#7A9EC2"
+				"foreground": "#ffa600"
+			}
+		},
+		{
+			"name": "Primitive Types",
+			"scope": [
+				"entity.type.primitive",
+				"meta.type.declaration.ts"
+			],
+			"settings": {
+				"foreground": "#00ffaa"
 			}
 		},
 		{
@@ -502,7 +522,7 @@
 				"entity.name.type.class"
 			],
 			"settings": {
-				"foreground": "#CCCCCC"
+				"foreground": "#ffefa8"
 			}
 		},
 		{
