@@ -60,7 +60,7 @@
 		"tab.unfocusedHoverBackground": "#aa4d01",
 		"tab.unfocusedHoverBorder": "#ff0000",
 		"button.hoverBackground": "#9c180ec0",
-		"terminal.background": "#151515",
+		"terminal.background": "#151515"
 	},
 	"tokenColors": [
 		{
